@@ -1,36 +1,5 @@
-# Build output
-build/
-*/build/
+# Ignore everything
+*
 
-# Gradle
-.gradle/
-gradle/wrapper/gradle-wrapper.jar
-
-# IDE
-.idea/
-*.iml
-*.ipr
-*.iws
-.vscode/
-.settings/
-.classpath
-.project
-bin/
-
-# Runtime
-run/
-*/run/
-logs/
-
-# OS files
-Thumbs.db
-.DS_Store
-
-# Loom cache
-.fabric/
-remappedSrc/
-
-# Misc
-nul
-chatlog
-.claude/
+# But allow README.md
+!README.md
