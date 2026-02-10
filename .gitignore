@@ -1,0 +1,36 @@
+# Build output
+build/
+*/build/
+
+# Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# Runtime
+run/
+*/run/
+logs/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Loom cache
+.fabric/
+remappedSrc/
+
+# Misc
+nul
+chatlog
+.claude/

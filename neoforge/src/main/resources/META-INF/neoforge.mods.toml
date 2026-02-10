@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[10,)"
+license = "CC0-1.0"
+
+[[mods]]
+modId = "orevein"
+version = "${version}"
+displayName = "OreVein - Advanced Vein Mining"
+authors = "VoiceLessQ"
+logoFile = "assets/orevein/icon.png"
+description = '''
+Vein mining that actually feels like Minecraft! Hold sneak to mine entire ore veins, trees & common blocks at vanilla speeds.
+'''
+
+[[dependencies.orevein]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.11,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.orevein]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.11,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "orevein.mixins.json"
